@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of Erroll Jhon Paul Agustin Sipagan" />
+  <title>Erroll Sipagan | Portfolio</title>
+  <!-- Tailwind CSS v4.1 -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header / Navigation -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl font-bold">Erroll Sipagan</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-blue-100 to-white text-center pt-20">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">Hi, I’m Erroll</h2>
+    <!-- <p class="text-lg md:text-xl mb-6">Senior Software Engineer | Full-Stack Developer</p> -->
+    <div class="flex mb-2">
+        <p id="typing" class="text-xl font-medium text-gray-800"></p>
+        <span class="cursor"></span>
+    </div>
+    <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto py-20 px-6">
+    <h2 class="text-3xl font-semibold mb-8 text-center">About Me</h2>
+    <div class="flex flex-col md:flex-row items-center md:space-x-10">
+      <img src="assets/profile.png" alt="Profile Photo" class="w-48 h-48 rounded-full mb-6 md:mb-0">
+      <p class="text-lg leading-relaxed">
+        I am a full-stack software engineer with over 8 years of experience in building scalable and efficient web applications.
+        I specialize in React, Node.js, and Java. I am passionate about creating intuitive interfaces and robust backend systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Personal Projects Section -->
+  <section id="projects" class="bg-gray-100 py-20 px-6">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 container mx-auto">
+      <!-- Project Card 1 -->
+      <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">MRT/LRT Guide</h3>
+        <p class="text-gray-600 mb-4">
+            A straightforward yet powerful progressive web app that helps commuters navigate Metro Manila’s MRT and LRT lines with ease.
+        </p>
+        <div class="flex space-x-4">
+          <a target="_blank" href="https://www.spot.ph/newsfeatures/mobility/111604/this-mrt-lrt-guide-lets-you-plan-your-commute-without-internet-a5229-20250425" class="text-blue-600 hover:underline">Featured on SPOT.ph</a>
+          <a target="_blank" href="https://mrt-guide.web.app/" class="text-blue-600 hover:underline">Explore MRT Guide</a>
+        </div>
+      </div>
+      <!-- Project Card 2 -->
+      <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Ride Hailing App</h3>
+        <p class="text-gray-600 mb-4">A cross-platform ride-hailing app built with Expo and powered by the Google Maps API. The app enables users to book rides, track drivers in real time, and view trip details with accurate fare estimation.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="text-blue-600 hover:underline">Watch Demo</a>
+        </div>
+      </div>
+      <!-- Project Card 3 -->
+      <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">ffmpeg-ui</h3>
+        <p class="text-gray-600 mb-4">
+            A user-friendly graphical interface for FFmpeg, making it easy to process audio and video files without using complex command-line commands.
+        </p>
+        <div class="flex space-x-4">
+          <a target="_blank" href="https://github.com/errollsipagan/ffmpeg-ui" class="text-blue-600 hover:underline">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Projects Section -->
+  <!-- <section id="professional-projects" class="bg-gray-200 py-20 px-6">
+    <h2 class="text-3xl font-semibold mb-8 text-center">Professional Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 container mx-auto">
+      <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">SKIN CELL Landing Page</h3>
+        <p class="text-gray-600 mb-4">
+            Developed a fully responsive landing page for SKINCELL, a leading dermatology and laser clinic in Metro Manila, optimizing its design for seamless viewing across desktop and mobile devices.
+        </p>
+        <div class="flex space-x-4">
+          <a target="_blank" href="https://web.archive.org/web/20200926152816/https://www.skincell.care/#" class="text-blue-600 hover:underline">Explore SKIN CELL</a>
+        </div>
+      </div>
+      <div class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">UN Gloabl Compact Network Singapore</h3>
+        <p class="text-gray-600 mb-4">
+            Developed a website for UN Global Compact Network Singapore, an organization that promotes sustainable and socially responsible business practices. The site highlights the Ten Principles of the UN Global Compact, covering human rights, labour, environment, and anti-corruption, to support ethical and sustainable corporate engagement.
+        </p>
+        <div class="flex space-x-4">
+          <a target="_blank" href="https://web.archive.org/web/20200906185910/https://unglobalcompact.sg/" class="text-blue-600 hover:underline">Explore GCNS</a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto py-20 px-6 text-center">
+    <h2 class="text-3xl font-semibold mb-8">Contact</h2>
+    <p class="text-lg mb-6">Let’s connect. Feel free to reach out via LinkedIn.</p>
+    <div class="space-x-6">
+      <a href="https://www.linkedin.com/in/erroll-sipagan/" target="_blank" class="bg-blue-600 text-white px-5 py-3 rounded hover:bg-blue-700 transition">LinkedIn</a>
+      <a target="_blank" href="https://github.com/errollsipagan" class="text-blue-600 hover:underline">GitHub</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

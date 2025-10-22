@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    height: 28px;
+    background: black;
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+}
