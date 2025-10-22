@@ -39,3 +39,8 @@ html {
 .bg-electron {
     background-color: #1b1c27;
 }
+
+#hero {
+    background-image: url('./assets//home-bg.jpg');
+    background-size: cover;
+}
