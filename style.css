@@ -15,3 +15,27 @@ html {
     0%, 50%, 100% { opacity: 1; }
     25%, 75% { opacity: 0; }
 }
+
+.bg-react {
+    background-color: #58c4dcd9;
+}
+
+.bg-pwa {
+    background-color: #5a14c9;
+}
+
+.bg-bt {
+    background-color: #712cf6;
+}
+
+.bg-redux {
+    background-color: #593d88;
+}
+
+.text-electron {
+    color: #9fe9fa;
+}
+
+.bg-electron {
+    background-color: #1b1c27;
+}
